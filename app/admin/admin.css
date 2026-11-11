@@ -1,0 +1,18 @@
+.adm{--b:#262633;--bg:#0d0d14;--p:#14141d;--a:#ffc83d;font:15px/1.5 system-ui,sans-serif;color:#e9e9f1;background:#07070a;min-height:100dvh}
+.adm a{color:#8fd3ff}.adm h1{font-size:1.6rem;margin:0 0 1rem}.adm h2{font-size:1.1rem;margin:1.5rem 0 .6rem}
+.adm-shell{display:grid;grid-template-columns:200px 1fr;min-height:100dvh}
+.adm-nav{background:var(--bg);border-right:1px solid var(--b);padding:1rem;display:flex;flex-direction:column;gap:.15rem;position:sticky;top:0;height:100dvh;overflow:auto}
+.adm-nav a{color:#cfcfe0;text-decoration:none;padding:.45rem .6rem;border-radius:8px}.adm-nav a:hover{background:var(--p)}
+.adm-main{padding:1.5rem;max-width:1100px;width:100%;overflow-x:auto}
+.adm-card{background:var(--p);border:1px solid var(--b);border-radius:12px;padding:1rem;margin-bottom:1rem}
+.adm label{display:block;font-size:.8rem;color:#a8a8bd;margin:.7rem 0 .2rem}
+.adm input,.adm select,.adm textarea{width:100%;background:#0a0a10;color:inherit;border:1px solid var(--b);border-radius:8px;padding:.5rem .6rem;font:inherit}
+.adm textarea{min-height:120px;font-family:ui-monospace,monospace;font-size:.85rem}
+.adm input[type=checkbox]{width:auto;margin-right:.4rem}
+.adm .row{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:.8rem}
+.adm button,.adm .btn{background:var(--a);color:#1a1300;border:0;border-radius:8px;padding:.5rem 1rem;font-weight:700;cursor:pointer;text-decoration:none;display:inline-block;font-size:.9rem}
+.adm button.ghost{background:transparent;color:#e9e9f1;border:1px solid var(--b)}.adm button.danger{background:#ff5a6a;color:#fff}
+.adm table{width:100%;border-collapse:collapse;font-size:.88rem}.adm th,.adm td{text-align:left;padding:.5rem;border-bottom:1px solid var(--b);vertical-align:top}
+.adm th{color:#a8a8bd;font-weight:600}.adm .err{color:#ff8a95}.adm .ok{color:#6ee7a0}.adm .muted{color:#8a8aa0}
+.adm .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:.8rem}.adm .stat b{display:block;font-size:1.6rem}
+@media(max-width:760px){.adm-shell{grid-template-columns:1fr}.adm-nav{position:static;height:auto;flex-direction:row;flex-wrap:wrap}}
